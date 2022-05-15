@@ -25,4 +25,4 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: us-west-2
           function_name: ParallelExection2
-          source: lambda/*
+          zip_file: bundle.zip
